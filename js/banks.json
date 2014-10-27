@@ -1,0 +1,80 @@
+var "banks" {
+	"American Express":{
+		"supported": true,
+		"soonsupport": false,
+		"notsupported": false,
+		"unknown": false
+	},
+	"Bank of America":{
+		"supported": true,
+		"soonsupport": false,
+		"notsupported": false,
+		"unknown": false
+	},
+	"Wells Fargo":{
+		"supported": true,
+		"soonsupport": false,
+		"notsupported": false,
+		"unknown": false
+	},
+	"Capital One":{
+		"supported": true,
+		"soonsupport": false,
+		"notsupported": false,
+		"unknown": false
+	},
+	"Citibank":{
+		"supported": false,
+		"soonsupport": false,
+		"notsupported": true,
+		"unknown": false
+	},
+	"Citi":{
+		"supported": false,
+		"soonsupport": false,
+		"notsupported": true,
+		"unknown": false
+	},
+	"Chase":{
+		"supported": false,
+		"soonsupport": false,
+		"notsupported": true,
+		"unknown": false
+	},
+	"Barclaycard":{
+		"supported": false,
+		"soonsupport": true,
+		"notsupported": false,
+		"unknown": false
+	},
+	"Navy Federal Credit Union":{
+		"supported": false,
+		"soonsupport": true,
+		"notsupported": false,
+		"unknown": false
+	},
+	"PNC":{
+		"supported": false,
+		"soonsupport": true,
+		"notsupported": false,
+		"unknown": false
+	},
+	"USAA":{
+		"supported": false,
+		"soonsupport": true,
+		"notsupported": false,
+		"unknown": false
+	},
+	"US Bank":{
+		"supported": false,
+		"soonsupport": true,
+		"notsupported": false,
+		"unknown": false
+	},
+	"Navy Federal Credit Union":{
+		"supported": false,
+		"soonsupport": false,
+		"notsupported": true,
+		"unknown": false
+	}
+}
