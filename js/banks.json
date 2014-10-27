@@ -1,0 +1,10 @@
+"supported": {
+	"Wells Fargo": true
+
+}
+"notsupported" {
+	"ncsecu": true
+}
+"unknown" {
+	
+}
