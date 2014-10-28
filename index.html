@@ -4,28 +4,55 @@
     <meta charset="utf-8">
     <title>Can I ApplePay?</title>
     <meta name="author" content="Cole Gentry">
-    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
     <!-- Latest compiled and minified Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-offset-2 col-md-8">	
+        <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">	
           <div class="jumbotron">
-            <img src="assets/apple-pay-logo.jpg" alt="Apple Logo">
+            <img src="assets/apple-pay-logo.png" alt="Apple Logo">
+            <div class="row">
+              <!--hidden items that appear depedning on bank compatibility-->
+              <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
+                <div class="center-block alert alert-warning">
+                  <p>Support in Progress</p>
+                </div>
+                <div class="center-block alert alert-success">
+                  <p>Supported</p>
+                </div>
+                <div class="center-block alert alert-danger">
+                  <p>Not Supported</p>
+                </div>
+              </div>
+            </div>
         	  <h1>Can I ApplePay?</h1>
         	  <p>Enter your bank or credit card provider below to check to see if your bank supports Apple Pay.</p>
-        	  <form role="form" class="form-inline">
-              <div class="form-group">
-                <label for="exampleInputEmail1">Bank Name: </label>
-                <input type="bank" class="form-control" id="input_bank" placeholder="Bank Name">
-              </div>
-              <button type="submit" id="bankSearch" class="btn btn-default">Submit</button>
-            </form>
     		  </div>
         </div>
       </div>
+      <div class="row">
+        <div class="form-group">
+          <input type="text" class="center-block form-control" id="input_bank" placeholder="Bank Name">
+          <button type="button" id="bankSearch" class="center-block btn btn-default">Submit</button>
+        </div>
+      </div>
+      <!-- <div class="row">
+        <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
+          <div class="center-block alert alert-warning">
+            <p>Support in Progress</p>
+          </div>
+          <div class="center-block alert alert-success">
+            <p>Supported</p>
+          </div>
+          <div class="center-block alert alert-danger">
+            <p>Not Supported</p>
+          </div>
+        </div>
+      </div> -->
       <div class="row google_ad">
         <div class="col-md-offset-2 col-md-8">
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -39,8 +66,15 @@
           </script>
         </div>
       </div>
+      <div class="row footer">
+        <div class="col-md-4">Site Developed by <a href="http://www.colegentry.io">Cole Gentry</a></div>
+        <div class="col-md-4">Updated every day with data sourced from Apple and each respective bank</div>
+        <div class="col-md-4"><script async="async" src="https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=ZWG9L69EMRP76" data-button="donate" data-name="Website Uptime" data-quantity="1" data-amount="10.00" data-currency="USD" data-shipping="0" data-tax="0"></script></div>
+      </div>
     </div>
     <!-- Begin Scripts -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
     <script src="js/scripts.js"></script>
     <!-- Latest compiled and minified Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>

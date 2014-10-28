@@ -16,39 +16,39 @@ var "banks" {
 		"soonsupport": false,
 	},
 	"Citibank":{
-		"supported": false,
+		"supported": true,
 		"soonsupport": false,
 	},
 	"Citi":{
-		"supported": false,
+		"supported": true,
 		"soonsupport": false,
 	},
 	"Chase":{
-		"supported": false,
+		"supported": true,
 		"soonsupport": false,
 	},
 	"Barclaycard":{
-		"supported": false,
-		"soonsupport": true,
+		"supported": true,
+		"soonsupport": false,
 	},
 	"Navy Federal Credit Union":{
-		"supported": false,
-		"soonsupport": true,
+		"supported": true,
+		"soonsupport": false,
 	},
 	"PNC":{
-		"supported": false,
-		"soonsupport": true,
+		"supported": true,
+		"soonsupport": false,
 	},
 	"USAA":{
-		"supported": false,
-		"soonsupport": true,
+		"supported": true,
+		"soonsupport": false,
 	},
 	"US Bank":{
-		"supported": false,
-		"soonsupport": true,
+		"supported": true,
+		"soonsupport": false,
 	},
 	"Navy Federal Credit Union":{
-		"supported": false,
+		"supported": true,
 		"soonsupport": false,
 	}
 }
