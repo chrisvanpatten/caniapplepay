@@ -32,23 +32,8 @@ body, html {
 input {
   text-align: center;
 }
-::-webkit-input-placeholder {
-   color: #DCDCDC;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   color: #DCDCDC;  
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #DCDCDC;  
-}
-
-:-ms-input-placeholder {  
-   color: #DCDCDC;  
-}
 .form-control {
-  width: 40%;
+  width: 60%;
 }
 #input_bank {
   margin-bottom: 2%;
@@ -66,7 +51,6 @@ input {
   background-color: #DFF0D8;
 }*/
 .footer {
-  text-align: center;
   border-top: 2px #323232 solid;
   padding-top: 1%;
   margin-right: 2%;
