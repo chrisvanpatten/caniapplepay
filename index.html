@@ -6,6 +6,7 @@
     <meta name="author" content="Cole Gentry">
     <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
     <!-- Latest compiled and minified Bootstrap CSS -->
+    <link href="css/chosen.min.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link href="css/main.css" rel="stylesheet" type="text/css"/>
   </head>
@@ -35,8 +36,36 @@
       </div>
       <div class="row">
         <div class="form-group">
-          <input type="text" class="center-block form-control" id="input_bank" autocomplete="off" placeholder="Bank Name">
+          <select id="input_bank" class="center-block" data-placeholder="Enter your Bank">
+            <option value=""></option>
+            <option>American Express</option>
+            <option>Bank of America</option>
+            <option>Citi</option>
+            <option>CitiBank</option>
+            <option>Chase</option>
+            <option>Capital One</option>
+            <option>JP Morgan</option>
+            <option>Merrill Lynch</option>
+            <option>US Trust</option>
+            <option>NCSECU</option>
+            <option>NC State Employees Credit Union</option>
+            <option>PNC</option>
+            <option>HSBC</option>
+            <option>Bank of New York Mellon</option>
+            <option>US Bancorp</option>
+            <option>State Street Corp</option>
+            <option>BB&amp;T</option>
+            <option>Toronto-Dominion</option>
+            <option>Royal Bank of Scotland</option>
+            <option>Fifth Third</option>
+            <option>ING Group</option>
+            <option>Northern Trust</option>
+            <option>Bank of Montreal</option>
+            <option>BNP Paribas</option>
+            <option>E-Trade</option>
+          </select>
           <button type="button" id="bankSearch" class="center-block btn btn-default btn-lg">Submit</button>
+          <!-- <input type="text" class="center-block form-control dropdown" id="input_bank" placeholder="Bank Name"> -->
         </div>
       </div>
       <!-- <div class="row">
@@ -73,7 +102,9 @@
     <!-- Begin Scripts -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <script src="js/chosen.jquery.min.js"></script>
+    <script src="js/chosen.proto.min.js"></script>
+    <script src="js/scripts.js"></script>
     <!-- Latest compiled and minified Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script>

@@ -32,6 +32,9 @@ body, html {
 input {
   text-align: center;
 }
+button {
+  margin-top: 2%;
+}
 .form-control {
   width: 60%;
 }
@@ -56,4 +59,8 @@ input {
   margin-right: 2%;
   margin-left: 2%;
 }
-
+.chosen-container {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -1,10 +1,10 @@
 var bankInput = null;
-
+$("#input_bank").chosen({no_results_text: "Oops, nothing found!", width: "40%", allow_single_deselect: true}); 
 $("#bankSearch").click(function() {
   bankInput = document.getElementById('input_bank').value;
   bankQuery(bankInput);
 });
-document.getElementById("input_bank").addEventListener( "keydown", function( e ) {
+document.getElementById("input_bank").addEventListener("keydown", function(e) {
     var keyCode = e.keyCode || e.which;
     if (keyCode === 13) {
       bankInput = document.getElementById('input_bank').value;
@@ -107,6 +107,11 @@ var banksArray = [
         },
         {
           name: 'ncsecu',
+          supported: false,
+          soonsupport: true
+        },
+        {
+          name: 'nc state employees credit union',
           supported: false,
           soonsupport: true
         },
