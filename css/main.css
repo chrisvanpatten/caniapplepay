@@ -32,6 +32,21 @@ body, html {
 input {
   text-align: center;
 }
+::-webkit-input-placeholder {
+   color: #DCDCDC;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #DCDCDC;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #DCDCDC;  
+}
+
+:-ms-input-placeholder {  
+   color: #DCDCDC;  
+}
 .form-control {
   width: 40%;
 }
