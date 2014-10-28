@@ -9,7 +9,6 @@ document.getElementById("input_bank").addEventListener( "keydown", function( e )
     if (keyCode === 13) {
       bankInput = document.getElementById('input_bank').value;
       bankQuery(bankInput);
-      get();
     }
 }, false);
 
