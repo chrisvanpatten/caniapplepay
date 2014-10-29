@@ -12,6 +12,13 @@ document.getElementById("input_bank").addEventListener("keydown", function(e) {
     }
 }, false);
 
+$(".chosen-container").bind('keyup', function(e) {
+    if (e.which === 13) {
+      bankInput = document.getElementById('input_bank').value;
+      bankQuery(bankInput);
+    }
+});
+
 function bankQuery(bankInput) {
   for (var i = 0; i < banksArray.length; i++) {
       console.log(bankInput, banksArray[i])
@@ -53,6 +60,14 @@ var banksArray = [
         },
         {
           name: 'first community federal credit union',
+          supported: 2
+        },
+        {
+          name: '1st colonial community bank',
+          supported: 2
+        },
+        {
+          name: '1st community federal credit union',
           supported: 2
         },
         {
@@ -124,11 +139,11 @@ var banksArray = [
           supported: 2
         },
         {
-          name: 'america’s christian credit union',
+          name: 'americas christian credit union',
           supported: 2
         },
         {
-          name: 'america’s credit union',
+          name: 'americas credit union',
           supported: 2
         },
         {
@@ -147,8 +162,108 @@ var banksArray = [
           name: 'arlington community federal credit union',
           supported: 2
         },
-        { //stopped
+        {
           name: 'artisans bank',
+          supported: 2
+        },
+        {
+          name: 'arvest bank',
+          supported: 2
+        },
+        {
+          name: 'auburn bank',
+          supported: 2
+        },
+        {
+          name: 'avidbank',
+          supported: 2
+        },
+        {
+          name: 'bank of colorado',
+          supported: 2
+        },
+        {
+          name: 'bank of hawaii',
+          supported: 2
+        },
+        {
+          name: 'bank of idaho',
+          supported: 2
+        },
+        {
+          name: 'bankers trust company',
+          supported: 2
+        },
+        {
+          name: 'bankers trust company – cedar rapids',
+          supported: 2
+        },
+        {
+          name: 'bankiowa',
+          supported: 2
+        },
+        {
+          name: 'baton rouge telco federal credit union',
+          supported: 2
+        },
+        {
+          name: 'baxter credit union',
+          supported: 2
+        },
+        {
+          name: 'bay atlantic federal credit union',
+          supported: 2
+        },
+        {
+          name: 'bcm federal credit union',
+          supported: 2
+        },
+        {
+          name: 'bellco credit union',
+          supported: 2
+        },
+        {
+          name: 'bellwether community credit union',
+          supported: 2
+        },
+        {
+          name: 'belmont bank & trust',
+          supported: 2
+        },
+        {
+          name: 'black hills federal credit union',
+          supported: 2
+        },
+        {
+          name: 'blackhawk community credit union',
+          supported: 2
+        },
+        {
+          name: 'bmi federal credit union',
+          supported: 2
+        },
+        {
+          name: 'boeing employee credit union',
+          supported: 2
+        },
+        {
+          name: 'bofi federal bank',
+          supported: 2
+        },
+        {
+          name: 'boulder dam credit union',
+          supported: 2
+        },
+        {
+          name: 'branch banking and trust company',
+          supported: 2
+        },
+        {
+          name: 'brazos valley schools credit union',
+          supported: 2
+        },
+        {
+          name: 'brown county state bank',
           supported: 2
         },
         {
