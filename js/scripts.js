@@ -522,587 +522,1263 @@ var banksArray = [
         },
         {
           name: 'dupaco community credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'dupage credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'dupont community credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'dutch point credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'e federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'east river federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'east texas professional credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'east wisconsin savings bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'eastman credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'educators credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'eli lilly federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'employees credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'esl federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'evansville federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'evansville teachers federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'evergreen credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'f&a federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'fairfax county federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'farm bureau bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'farmers bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'fidelity deposit & discount bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'financial plus credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'financial plus credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first atlantic federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first bank and trust company',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first bank of dalton',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first citizens’ federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first class american credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first community credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first entertainment credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first federal savings bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first fidelity bank n.a.',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first financial bank na cincinnati',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first financial credit union (ca)',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first financial credit union (il)',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first florida credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first international bank and trust',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first national bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first national bank of bosque county',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first national bank of omaha',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first national bank of pontotoc',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first national bank-arcadia la',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first northern credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first technology federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first tennessee bank national association',
-          supported: 3
+          supported: 2
         },
         {
           name: 'first utah bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'firstbank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'fnb community bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'fort worth city credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'fort worth community credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'founders federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'freedom first credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'fremont bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'frost bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'ge credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'generations community federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'golden plains credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'goldenwest federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'great basin fcu',
-          supported: 3
+          supported: 2
         },
         {
           name: 'greater iowa credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'greater nevada credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'gte federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'guaranty bank & trust company',
-          supported: 3
+          supported: 2
         },
         {
           name: 'guaranty bank & trust, n.a.',
-          supported: 3
+          supported: 2
         },
         {
           name: 'gulf coast bank and trust company',
-          supported: 3
+          supported: 2
         },
         {
           name: 'gulf coast educators federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'gulf winds federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'hartford healthcare federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'hawaii county employees federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'hawaii state federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'healthcare systems federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'heartland federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'heinz-del monte federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'henrico federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'heritage community credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'heritage grove federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'highmark federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'hiway federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'honda federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'houston texas fire fighters federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'hudson river community credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'hudson valley federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'hughes federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'huntington federal savings bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'iberiabank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'idaho central credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'illiana financial credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'illinois national bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'illinois state police federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'innovations federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'inova federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'iq credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'jax federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'johns hopkins federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'justice federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'kane county teachers credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'keesler federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'kemba credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'kent credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'key point credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'kinetic credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'kirtland federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'la terre federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'lake michigan credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'lake sunapee bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'landmark credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'langley federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'laramie plains community federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'legend bank na',
-          supported: 3
+          supported: 2
         },
         {
           name: 'liberty savings bank, f.s.b.',
-          supported: 3
+          supported: 2
         },
         {
           name: 'library of congress federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'listerhill credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'lone star state bank of west texas',
-          supported: 3
+          supported: 2
         },
         {
           name: 'los angeles federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'luther burbank savings',
-          supported: 3
+          supported: 2
         },
         {
           name: 'm&t bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'marine bank & trust',
-          supported: 3
+          supported: 2
         },
         {
           name: 'marion & polk schools credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'massmutual federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'mcgraw-hill federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'mchenry county federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'meadows bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'meadows credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'mendo lake credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'mercantile bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'mercantile bank of michigan',
-          supported: 3
+          supported: 2
         },
         {
           name: 'merck employees federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'merco credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'meridian trust federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'merrimack valley credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'michigan state university federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'michigan tech employees federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'midfirst bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'midflorida credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'mid-hudson valley federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'midstate federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'mississippi national guard federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'mississippi telco federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'missoula federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'missouri bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'montgomery county federal credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'mountain america credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'mountain credit union',
-          supported: 3
+          supported: 2
         },
         {
           name: 'mountain valley bank',
-          supported: 3
+          supported: 2
         },
         {
           name: 'municipal credit union',
-          supported: 3
+          supported: 2
+        },
+        {
+          name: 'napus federal credit union',
+          supported: 2
+        },
+        {
+          name: 'nasa federal credit union',
+          supported: 2
+        },
+        {
+          name: 'national bank of arizona',
+          supported: 2
+        },
+        {
+          name: 'navy federal credit union',
+          supported: 2
+        },
+        {
+          name: 'neighborhood credit union',
+          supported: 2
+        },
+        {
+          name: 'nevada state bank',
+          supported: 2
+        },
+        {
+          name: 'new england federal credit union',
+          supported: 2
+        },
+        {
+          name: 'new mexico educators federal credit union',
+          supported: 2
+        },
+        {
+          name: 'nj gateway federal credit union',
+          supported: 2
+        },
+        {
+          name: 'northeast credit union',
+          supported: 2
+        },
+        {
+          name: 'northwest federal credit union',
+          supported: 2
+        },
+        {
+          name: 'novartis federal credit union',
+          supported: 2
+        },
+        {
+          name: 'nucor employee’s credit union',
+          supported: 2
+        },
+        {
+          name: 'numark credit union',
+          supported: 2
+        },
+        {
+          name: 'numerica credit union',
+          supported: 2
+        },
+        {
+          name: 'nymeo federal credit union',
+          supported: 2
+        },
+        {
+          name: 'old point national bank',
+          supported: 2
+        },
+        {
+          name: 'one bank & trust, n.a.',
+          supported: 2
+        },
+        {
+          name: 'one nevada credit union',
+          supported: 2
+        },
+        {
+          name: 'ontario-montclair school employees federal credit union',
+          supported: 2
+        },
+        {
+          name: 'oregonians federal credit union',
+          supported: 2
+        },
+        {
+          name: 'otero federal credit union',
+          supported: 2
+        },
+        {
+          name: 'pacific community credit union',
+          supported: 2
+        },
+        {
+          name: 'pacific enterprise bank',
+          supported: 2
+        },
+        {
+          name: 'pacific nw federal credit union',
+          supported: 2
+        },
+        {
+          name: 'pacific postal credit union',
+          supported: 2
+        },
+        {
+          name: 'parlin dupont employees federal credit union',
+          supported: 2
+        },
+        {
+          name: 'partners 1st federal credit union',
+          supported: 2
+        },
+        {
+          name: 'partners federal credit union',
+          supported: 2
+        },
+        {
+          name: 'pasadena federal credit union',
+          supported: 2
+        },
+        {
+          name: 'patelco credit union',
+          supported: 2
+        },
+        {
+          name: 'peapack gladstone bank',
+          supported: 2
+        },
+        {
+          name: 'penfed (pentagon federal credit union)',
+          supported: 2
+        },
+        {
+          name: 'penn east federal credit union',
+          supported: 2
+        },
+        {
+          name: 'peoples bank',
+          supported: 2
+        },
+        {
+          name: 'peoples choice credit union',
+          supported: 2
+        },
+        {
+          name: 'peoples community federal credit union',
+          supported: 2
+        },
+        {
+          name: 'peoples trust federal credit union',
+          supported: 2
+        },
+        {
+          name: 'permier community credit union',
+          supported: 2
+        },
+        {
+          name: 'pima federal credit union',
+          supported: 2
+        },
+        {
+          name: 'pinnacle bank',
+          supported: 2
+        },
+        {
+          name: 'pinnacle bank sioux city',
+          supported: 2
+        },
+        {
+          name: 'pinnacle bank texas',
+          supported: 2
+        },
+        {
+          name: 'pinnacle bank wyoming',
+          supported: 2
+        },
+        {
+          name: 'pittsford federal credit union',
+          supported: 2
+        },
+        {
+          name: 'pnc bank, n.a.',
+          supported: 2
+        },
+        {
+          name: 'polish & slavic federal credit union',
+          supported: 2
+        },
+        {
+          name: 'premier community bank',
+          supported: 2
+        },
+        {
+          name: 'premier credit union',
+          supported: 2
+        },
+        {
+          name: 'premier members federal credit union',
+          supported: 2
+        },
+        {
+          name: 'prestige community credit union',
+          supported: 2
+        },
+        {
+          name: 'primetrust financial federal credit union',
+          supported: 2
+        },
+        {
+          name: 'priority one credit union',
+          supported: 2
+        },
+        {
+          name: 'proponent federal credit union',
+          supported: 2
+        },
+        {
+          name: 'provident credit union',
+          supported: 2
+        },
+        {
+          name: 'pulaski bank',
+          supported: 2
+        },
+        {
+          name: 'purdue federal credit union',
+          supported: 2
+        },
+        {
+          name: 'pyramid federal credit union',
+          supported: 2
+        },
+        {
+          name: 'redwood credit union',
+          supported: 2
+        },
+        {
+          name: 'regions bank',
+          supported: 2
+        },
+        {
+          name: 'reliant federal credit union',
+          supported: 2
+        },
+        {
+          name: 'riegel federal credit union',
+          supported: 2
+        },
+        {
+          name: 'river valley credit union',
+          supported: 2
+        },
+        {
+          name: 'rivermark community credit union',
+          supported: 2
+        },
+        {
+          name: 'roanoke valley community credit union',
+          supported: 2
+        },
+        {
+          name: 'royal credit union',
+          supported: 2
+        },
+        {
+          name: 'sabine federal credit union',
+          supported: 2
+        },
+        {
+          name: 'sacramento credit union',
+          supported: 2
+        },
+        {
+          name: 'salal credit union',
+          supported: 2
+        },
+        {
+          name: 'san diego firefighters fcu',
+          supported: 2
+        },
+        {
+          name: 'san francisco federal credit union',
+          supported: 2
+        },
+        {
+          name: 'san francisco fire credit union',
+          supported: 2
+        },
+        {
+          name: 'san mateo credit union',
+          supported: 2
+        },
+        {
+          name: 'sandia area federal credit union',
+          supported: 2
+        },
+        {
+          name: 'savings bank of danbury',
+          supported: 2
+        },
+        {
+          name: 'schools financial credit union',
+          supported: 2
+        },
+        {
+          name: 'schoolsfirst federal credit union',
+          supported: 2
+        },
+        {
+          name: 'scient federal credit union',
+          supported: 2
+        },
+        {
+          name: 'seasons federal credit union',
+          supported: 2
+        },
+        {
+          name: 'seattle metropolitan credit union',
+          supported: 2
+        },
+        {
+          name: 'service credit union',
+          supported: 2
+        },
+        {
+          name: 'seven seventeen credit union, inc.',
+          supported: 2
+        },
+        {
+          name: 'simmons first national bank',
+          supported: 2
+        },
+        {
+          name: 'siouxland federal credit union',
+          supported: 2
+        },
+        {
+          name: 'skyone federal credit union',
+          supported: 2
+        },
+        {
+          name: 'sonoma county grange credit union',
+          supported: 2
+        },
+        {
+          name: 'sooper credit union',
+          supported: 2
+        },
+        {
+          name: 'south carolina federal credit union',
+          supported: 2
+        },
+        {
+          name: 'south florida educational federal credit union',
+          supported: 2
+        },
+        {
+          name: 'south metro credit union',
+          supported: 2
+        },
+        {
+          name: 'southern federal credit union',
+          supported: 2
+        },
+        {
+          name: 'southern mississippi federal credit union',
+          supported: 2
+        },
+        {
+          name: 'southwest 66 credit union',
+          supported: 2
+        },
+        {
+          name: 'spire credit union',
+          supported: 2
+        },
+        {
+          name: 'spokane teachers credit union',
+          supported: 2
+        },
+        {
+          name: 'staley credit union',
+          supported: 2
+        },
+        {
+          name: 'star tech federal credit union',
+          supported: 2
+        },
+        {
+          name: 'star usa federal credit union',
+          supported: 2
+        },
+        {
+          name: 'state bank of chilton',
+          supported: 2
+        },
+        {
+          name: 'state department federal credit union',
+          supported: 2
+        },
+        {
+          name: 'state employees credit union of maryland, inc.',
+          supported: 2
+        },
+        {
+          name: 'state highway patrol federal credit union',
+          supported: 2
+        },
+        {
+          name: 'statewide federal credit union',
+          supported: 2
+        },
+        {
+          name: 'stockman bank of montana',
+          supported: 2
+        },
+        {
+          name: 'summit credit union',
+          supported: 2
+        },
+        {
+          name: 'suncoast credit union',
+          supported: 2
+        },
+        {
+          name: 'sussex county federal credit union',
+          supported: 2
+        },
+        {
+          name: 'synchrony bank',
+          supported: 2
+        },
+        {
+          name: 'tampa bay federal credit union',
+          supported: 2
+        },
+        {
+          name: 'tcf national bank',
+          supported: 2
+        },
+        {
+          name: 'tech credit union',
+          supported: 2
+        },
+        {
+          name: 'technology credit union',
+          supported: 2
+        },
+        {
+          name: 'tennessee valley federal credit union',
+          supported: 2
+        },
+        {
+          name: 'texas bank and trust',
+          supported: 2
+        },
+        {
+          name: 'texas capital bank',
+          supported: 2
+        },
+        {
+          name: 'texas first bank',
+          supported: 2
+        },
+        {
+          name: 'texas telcom credit union',
+          supported: 2
+        },
+        {
+          name: 'the american national bank of texas',
+          supported: 2
+        },
+        {
+          name: 'the bank of greene county',
+          supported: 2
+        },
+        {
+          name: 'the first national bank of ottawa',
+          supported: 2
+        },
+        {
+          name: 'the golden 1 credit union',
+          supported: 2
+        },
+        {
+          name: 'the honesdale national bank',
+          supported: 2
+        },
+        {
+          name: 'the national bank & trust company of sycamore',
+          supported: 2
+        },
+        {
+          name: 'the paducah bank and trust company',
+          supported: 2
+        },
+        {
+          name: 'the summit federal credit union',
+          supported: 2
+        },
+        {
+          name: 'tomah area credit union',
+          supported: 2
+        },
+        {
+          name: 'torrington municipal & teachers fcu',
+          supported: 2
+        },
+        {
+          name: 'town and country bank',
+          supported: 2
+        },
+        {
+          name: 'transportation fcu',
+          supported: 2
+        },
+        {
+          name: 'trona valley community federal credit union',
+          supported: 2
+        },
+        {
+          name: 'true north federal credit union',
+          supported: 2
+        },
+        {
+          name: 'trumark financial credit union',
+          supported: 2
+        },
+        {
+          name: 'tucson federal credit union',
+          supported: 2
+        },
+        {
+          name: 'u-mass five college federal credit union',
+          supported: 2
+        },
+        {
+          name: 'ume federal credit union',
+          supported: 2
+        },
+        {
+          name: 'uncle credit union',
+          supported: 2
+        },
+        {
+          name: 'unibank for savings',
+          supported: 2
+        },
+        {
+          name: 'united community bank',
+          supported: 2
+        },
+        {
+          name: 'united federal credit union',
+          supported: 2
+        },
+        {
+          name: 'united nations federal credit union',
+          supported: 2
+        },
+        {
+          name: 'united southern bank',
+          supported: 2
+        },
+        {
+          name: 'university credit union',
+          supported: 2
+        },
+        {
+          name: 'university federal credit union',
+          supported: 2
+        },
+        {
+          name: 'university first federal credit',
+          supported: 2
+        },
+        {
+          name: 'university of toledo federal credit union',
+          supported: 2
+        },
+        {
+          name: 'us community credit union',
+          supported: 2
+        },
+        {
+          name: 'usalliance federal credit union',
+          supported: 2
+        },
+        {
+          name: 'usf federal credit union',
+          supported: 2
+        },
+        {
+          name: 'utah federal credit union',
+          supported: 2
+        },
+        {
+          name: 'utah first federal credit union',
+          supported: 2
+        },
+        {
+          name: 'vectrabank colorado national association',
+          supported: 2
+        },
+        {
+          name: 'veridian credit union',
+          supported: 2
+        },
+        {
+          name: 'vermont state employees credit union',
+          supported: 2
+        },
+        {
+          name: 'vons employees federal credit union',
+          supported: 2
+        },
+        {
+          name: 'vystar credit union',
+          supported: 2
+        },
+        {
+          name: 'wanigas credit union',
+          supported: 2
+        },
+        {
+          name: 'washington community fcu',
+          supported: 2
+        },
+        {
+          name: 'weokie credit union',
+          supported: 2
+        },
+        {
+          name: 'wescom credit union',
+          supported: 2
+        },
+        {
+          name: 'westmoreland community federal credit union',
+          supported: 2
+        },
+        {
+          name: 'wings financial credit union',
+          supported: 2
+        },
+        {
+          name: 'winthrop area federal credit union',
+          supported: 2
+        },
+        {
+          name: 'winthrop-university hospital employees federal credit union',
+          supported: 2
+        },
+        {
+          name: 'wood & huston bank',
+          supported: 2
+        },
+        {
+          name: 'wright patman congressional federal credit union',
+          supported: 2
+        },
+        {
+          name: 'yolo federal credit union',
+          supported: 2
+        },
+        {
+          name: 'york educational fcu',
+          supported: 2
+        },
+        {
+          name: 'zia credit union',
+          supported: 2
+        },
+        {
+          name: 'zions first national bank',
+          supported: 2
         },
         {
           name: 'absa',
