@@ -14,32 +14,30 @@ document.getElementById("input_bank").addEventListener("keydown", function(e) {
 
 function bankQuery(bankInput) {
   for (var i = 0; i < banksArray.length; i++) {
+      console.log(bankInput, banksArray[i])
     if (bankInput.toLowerCase() === banksArray[i].name) {
-      if (banksArray[i].supported == true) {
-        $(".alert-warning").hide();
-        $(".alert-danger").hide();
+      if (banksArray[i].supported == 1) {
+        $(".alert").hide();
         $(".alert-success").fadeIn();
         // $('body').toggleClass('clicked1');
         // $('.container-fluid').toggleClass('clicked1');
         // $('html').toggleClass('clicked1');
         return;
-      } else if (banksArray[i].soonsupport === true) {
-        $(".alert-success").hide();
-        $(".alert-danger").hide();
+      } else if (banksArray[i].supported == 2) {
+        $(".alert").hide();
         $(".alert-warning").fadeIn();
         // $('body').toggleClass('clicked2');
         // $('.container-fluid').toggleClass('clicked2');
         // $('html').toggleClass('clicked2');
         return;
-      }; 
-    } else if (banksArray[i].supported == false) {
-      $(".alert-warning").hide();
-      $(".alert-success").hide();
-      $(".alert-danger").fadeIn();
-      // $('body').toggleClass('clicked3');
-      // $('.container-fluid').toggleClass('clicked3');
-      // $('html').toggleClass('clicked3');
-      return;
+      } else if (banksArray[i].supported == 3) {
+        $(".alert").hide();
+        $(".alert-danger").fadeIn();
+        // $('body').toggleClass('clicked3');
+        // $('.container-fluid').toggleClass('clicked3');
+        // $('html').toggleClass('clicked3');
+        return;
+      };
     };
   };
 };
@@ -47,177 +45,170 @@ function bankQuery(bankInput) {
 var banksArray = [
         {
           name: 'american express',
-          supported: true,
-          soonsupport: false
+          supported: 1
+        },
+        {
+          name: 'absa',
+          supported: 3
+        },
+        {
+          name: 'ally bank',
+          supported: 3
         },
         {
           name: 'bank of america', 
-          supported: true,
-          soonsupport: false
+          supported: 1
+        },
+        {
+          name: 'barclaycard', 
+          supported: 1
         },
         {
           name: 'citi',
-          supported: true,
-          soonsupport: false
+          supported: 1
         },
         {
           name: 'citibank',
-          supported: true,
-          soonsupport: false
+          supported: 1
         },
         {
           name: 'chase',
-          supported: true,
-          soonsupport: false
+          supported: 1
         },
         {
           name: 'capital one',
-          supported: true,
-          soonsupport: false
+          supported: 1
         },
         {
           name: 'j.p. morgan',
-          supported: true,
-          soonsupport: false
+          supported: 1
         },
         {
           name: 'jp morgan',
-          supported: true,
-          soonsupport: false
+          supported: 1
         },
         {
           name: 'merrill lynch',
-          supported: true,
-          soonsupport: false
+          supported: 1
+        },
+        {
+          name: 'navy federal credit union',
+          supported: 1
         },
         {
           name: 'u.s. trust',
-          supported: true,
-          soonsupport: false
+          supported: 1
         },
         {
           name: 'us trust',
-          supported: true,
-          soonsupport: false
+          supported: 1
         },
         {
           name: 'wells fargo',
-          supported: true,
-          soonsupport: false
+          supported: 1
         },
         {
           name: 'ncsecu',
-          supported: false,
-          soonsupport: true
+          supported: 2
         },
         {
           name: 'nc state employees credit union',
-          supported: false,
-          soonsupport: true
+          supported: 2
         },
         {
           name: 'pnc',
-          supported: false,
-          soonsupport: false
+          supported: 2
         },
         {
           name: 'hsbc',
-          supported: false,
-          soonsupport: false
+          supported: 3
         },
         {
           name: 'bank of new york mellon',
-          supported: false,
-          soonsupport: false
+          supported: 3
         },
         {
           name: 'us bancorp',
-          supported: false,
-          soonsupport: false
+          supported: 2
         },
         {
           name: 'u.s. bancorp',
-          supported: false,
-          soonsupport: false
+          supported: 2
         },
         {
           name: 'suntrust',
-          supported: false,
-          soonsupport: false
+          supported: 2
         },
         {
           name: 'state street corp',
-          supported: false,
-          soonsupport: false
+          supported: 3
         },
         {
           name: 'state street',
-          supported: false,
-          soonsupport: false
+          supported: 3
+        },
+        {
+          name: 'huntington bank',
+          supported: 2
+        },
+        {
+          name: 'usaa',
+          supported: 2
         },
         {
           name: 'bbt',
-          supported: false,
-          soonsupport: false
+          supported: 2
         },
         {
           name: 'bb&t',
-          supported: false,
-          soonsupport: false
+          supported: 2
         },
         {
           name: 'toronto-dominion',
-          supported: false,
-          soonsupport: false
+          supported: 2
         },
         {
           name: 'toronto-dominion bank',
-          supported: false,
-          soonsupport: false
+          supported: 2
         },
         {
           name: 'royal bank of scotland',
-          supported: false,
-          soonsupport: false
+          supported: 3
         },
         {
           name: 'regions financial',
-          supported: false,
-          soonsupport: false
+          supported: 2
         },
         {
           name: 'fifth third',
-          supported: false,
-          soonsupport: false
+          supported: 2
+        },
+        {
+          name: 'keybank',
+          supported: 2
         },
         {
           name: 'ing group',
-          supported: false,
-          soonsupport: false
+          supported: 3
         },
         {
           name: 'ing',
-          supported: false,
-          soonsupport: false
+          supported: 3
         },
         {
           name: 'northern trust',
-          supported: false,
-          soonsupport: false
+          supported: 3
         },
         {
           name: 'bank of montreal',
-          supported: false,
-          soonsupport: false
+          supported: 2
         },
         {
           name: 'bnp paribas',
-          supported: false,
-          soonsupport: false
+          supported: 3
         },
         {
           name: 'e-trade',
-          supported: false,
-          soonsupport: false
+          supported: 3
         }
 ];
