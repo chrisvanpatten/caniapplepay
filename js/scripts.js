@@ -21,23 +21,14 @@ function bankQuery(bankInput) {
       if (banksArray[i].supported == 1) {
         $(".alert").hide();
         $(".alert-success").fadeIn();
-        // $('body').toggleClass('clicked1');
-        // $('.container-fluid').toggleClass('clicked1');
-        // $('html').toggleClass('clicked1');
         return;
       } else if (banksArray[i].supported == 2) {
         $(".alert").hide();
         $(".alert-warning").fadeIn();
-        // $('body').toggleClass('clicked2');
-        // $('.container-fluid').toggleClass('clicked2');
-        // $('html').toggleClass('clicked2');
         return;
       } else if (banksArray[i].supported == 3) {
         $(".alert").hide();
         $(".alert-danger").fadeIn();
-        // $('body').toggleClass('clicked3');
-        // $('.container-fluid').toggleClass('clicked3');
-        // $('html').toggleClass('clicked3');
         return;
       };
     };
