@@ -1,24 +1,19 @@
+//setting a initial global variable
 var bankInput = null;
+//int chosen
 $("#input_bank").chosen({no_results_text: "Oops, nothing found!", width: "40%", allow_single_deselect: true}); 
+//function to listen for click event and enter key event
 $("#bankSearch").click(function() {
   bankInput = document.getElementById('input_bank').value;
   bankQuery(bankInput);
 });
-document.getElementById("input_bank").addEventListener("keydown", function(e) {
-    var keyCode = e.keyCode || e.which;
-    if (keyCode === 13) {
-      bankInput = document.getElementById('input_bank').value;
-      bankQuery(bankInput);
-    }
-}, false);
-
 $(".chosen-container").bind('keyup', function(e) {
     if (e.which === 13) {
       bankInput = document.getElementById('input_bank').value;
       bankQuery(bankInput);
     }
 });
-
+//function for looping through banks
 function bankQuery(bankInput) {
   for (var i = 0; i < banksArray.length; i++) {
       console.log(bankInput, banksArray[i])
@@ -48,7 +43,7 @@ function bankQuery(bankInput) {
     };
   };
 };
-
+//full list of banks
 var banksArray = [
         {
           name: 'american express',
