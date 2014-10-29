@@ -48,6 +48,10 @@ var banksArray = [
           supported: 1
         },
         {
+          name: '',
+          supported: 2
+        },
+        {
           name: 'absa',
           supported: 3
         },
