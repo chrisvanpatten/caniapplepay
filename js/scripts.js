@@ -48,7 +48,107 @@ var banksArray = [
           supported: 1
         },
         {
-          name: '',
+          name: 'first colonial community bank',
+          supported: 2
+        },
+        {
+          name: 'first community federal credit union',
+          supported: 2
+        },
+        {
+          name: 'a+ federal credit union',
+          supported: 2
+        },
+        {
+          name: 'actors federal credit union',
+          supported: 2
+        },
+        {
+          name: 'advantage federal credit union',
+          supported: 2
+        },
+        {
+          name: 'affinity federal credit union',
+          supported: 2
+        },
+        {
+          name: 'affinity plus federal credit union',
+          supported: 2
+        },
+        {
+          name: 'alaska usa federal credit union',
+          supported: 2
+        },
+        {
+          name: 'alliant credit union',
+          supported: 2
+        },
+        {
+          name: 'alps federal credit union',
+          supported: 2
+        },
+        {
+          name: 'alternatives federal credit union',
+          supported: 2
+        },
+        {
+          name: 'altra federal credit union',
+          supported: 2
+        },
+        {
+          name: 'amarillo national bank',
+          supported: 2
+        },
+        {
+          name: 'amegy bank national association',
+          supported: 2
+        },
+        {
+          name: 'america first credit union',
+          supported: 2
+        },
+        {
+          name: 'american airlines federal credit union',
+          supported: 2
+        },
+        {
+          name: 'american chartered bank',
+          supported: 2
+        },
+        {
+          name: 'american heritage bank',
+          supported: 2
+        },
+        {
+          name: 'american savings bank',
+          supported: 2
+        },
+        {
+          name: 'america’s christian credit union',
+          supported: 2
+        },
+        {
+          name: 'america’s credit union',
+          supported: 2
+        },
+        {
+          name: 'americu credit union',
+          supported: 2
+        },
+        {
+          name: 'andrews federal credit union',
+          supported: 2
+        },
+        {
+          name: 'apco employees credit union',
+          supported: 2
+        },
+        {
+          name: 'arlington community federal credit union',
+          supported: 2
+        },
+        { //stopped
+          name: 'artisans bank',
           supported: 2
         },
         {
