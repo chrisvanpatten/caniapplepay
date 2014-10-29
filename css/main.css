@@ -59,7 +59,11 @@ button {
   margin-right: 2%;
   margin-left: 2%;
 }
+span {
+  font-weight: bold;
+}
 .chosen-container {
+  text-align: center;
   display: block;
   margin-right: auto;
   margin-left: auto;
