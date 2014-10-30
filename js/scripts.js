@@ -553,6 +553,14 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'etrade',
+          supported: 3
+        },
+        {
+          name: 'e trade',
+          supported: 3
+        },
+        {
           name: 'east river federal credit union',
           supported: 2
         },
