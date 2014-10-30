@@ -97,6 +97,10 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'alta vista credit union',
+          supported: 2
+        },
+        {
           name: 'amarillo national bank',
           supported: 2
         },
@@ -461,6 +465,14 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'cornell fingerlakes credit union',
+          supported: 2
+        },
+        {
+          name: 'cfcu',
+          supported: 2
+        },
+        {
           name: 'cpm federal credit union',
           supported: 2
         },
@@ -717,6 +729,10 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'focus bank',
+          supported: 3
+        },
+        {
           name: 'fort worth city credit union',
           supported: 2
         },
@@ -750,6 +766,10 @@ var banksArray = [
         },
         {
           name: 'golden plains credit union',
+          supported: 2
+        },
+        {
+          name: 'golden 1 credit union',
           supported: 2
         },
         {
@@ -1521,6 +1541,10 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'stock yards bank and trust',
+          supported: 2
+        },
+        {
           name: 'summit credit union',
           supported: 2
         },
@@ -1705,6 +1729,10 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'uw credit union',
+          supported: 3
+        },
+        {
           name: 'vectrabank colorado national association',
           supported: 2
         },
@@ -1746,6 +1774,10 @@ var banksArray = [
         },
         {
           name: 'wings financial credit union',
+          supported: 2
+        },
+        {
+          name: 'wisconsin bank and trust',
           supported: 2
         },
         {
@@ -1877,7 +1909,15 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'us bank',
+          supported: 2
+        },
+        {
           name: 'u.s. bancorp',
+          supported: 2
+        },
+        {
+          name: 'bancorp',
           supported: 2
         },
         {
