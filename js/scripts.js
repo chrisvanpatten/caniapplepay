@@ -1841,6 +1841,18 @@ var banksArray = [
           supported: 1
         },
         {
+          name: 'amalgamated bank',
+          supported: 3
+        },
+        {
+          name: 'ent federal credit union',
+          supported: 2
+        },
+        {
+          name: 'td bank',
+          supported: 2
+        },
+        {
           name: 'ncsecu',
           supported: 2
         },
