@@ -938,7 +938,7 @@ var banksArray = [
         },
         {
           name: 'keesler federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'kemba credit union',
@@ -1014,7 +1014,7 @@ var banksArray = [
         },
         {
           name: 'm&t bank',
-          supported: 2
+          supported: 1
         },
         {
           name: 'marine bank & trust',
@@ -1146,7 +1146,7 @@ var banksArray = [
         },
         {
           name: 'navy federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'neighborhood credit union',
@@ -1370,11 +1370,15 @@ var banksArray = [
         },
         {
           name: 'regions bank',
-          supported: 2
+          supported: 1
         },
         {
           name: 'reliant federal credit union',
           supported: 2
+        },
+        {
+          name: 'renasant bank',
+          supported: 1
         },
         {
           name: 'riegel federal credit union',
