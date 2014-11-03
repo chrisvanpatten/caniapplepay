@@ -1314,7 +1314,7 @@ var banksArray = [
         },
         {
           name: 'pnc bank, n.a.',
-          supported: 2
+          supported: 1
         },
         {
           name: 'polish & slavic federal credit union',
@@ -1902,7 +1902,7 @@ var banksArray = [
         },
         {
           name: 'pnc',
-          supported: 2
+          supported: 1
         },
         {
           name: 'hsbc',
@@ -1918,7 +1918,7 @@ var banksArray = [
         },
         {
           name: 'us bank',
-          supported: 2
+          supported: 1
         },
         {
           name: 'u.s. bancorp',
@@ -1946,7 +1946,7 @@ var banksArray = [
         },
         {
           name: 'usaa',
-          supported: 2
+          supported: 1
         },
         {
           name: 'bbt',
