@@ -24,6 +24,7 @@ h1>span {
 }
 .jumbotron img {
   width: 21%;
+  max-width: 173px;
 }
 .alert {
   text-align: center;
