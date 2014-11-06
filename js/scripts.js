@@ -321,6 +321,10 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'charles schwab',
+          supported: 3
+        },
+        {
           name: 'cheektowaga community federal credit union',
           supported: 2
         },
@@ -915,6 +919,10 @@ var banksArray = [
         {
           name: 'inova federal credit union',
           supported: 2
+        },
+        {
+          name: 'investors bank',
+          supported: 3
         },
         {
           name: 'iq credit union',
@@ -1770,6 +1778,10 @@ var banksArray = [
         },
         {
           name: 'washington community fcu',
+          supported: 2
+        },
+        {
+          name: 'webster bank',
           supported: 2
         },
         {
