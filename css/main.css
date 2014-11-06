@@ -67,6 +67,9 @@ button {
 span {
   font-weight: bold;
 }
+#input_bank {
+  max-width: 70%;
+}
 .chosen-container {
   text-align: center;
   display: block;

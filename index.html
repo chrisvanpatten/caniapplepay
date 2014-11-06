@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Can I ApplePay?</title>
     <meta name="author" content="Cole Gentry">
     <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
@@ -15,8 +15,9 @@
     <![endif]-->
     <!-- Latest compiled and minified Bootstrap CSS -->
     <link href="css/chosen.min.css" rel="stylesheet" type="text/css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="css/select2.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link href="css/main.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
     <div class="container-fluid">
@@ -46,7 +47,7 @@
         <div class="form-group">
           <select id="input_bank" class="center-block" data-placeholder="Enter your Bank">
             <option value=""></option>
-            <option>1st Community Federal Credit Union</option>
+            <option value="1st Community Federal Credit Union">1st Community Federal Credit Union</option>
             <option>1st Colonial Community Bank</option>
             <option>A+ Federal Credit Union</option>
             <option>ABSA</option>       
@@ -537,7 +538,6 @@
           </select>
           <button type="button" id="bankSearch" class="center-block btn btn-default btn-lg">Submit</button>
           <!-- <input type="text" class="center-block form-control dropdown" id="input_bank" placeholder="Bank Name"> -->
-        </div>
       </div>
       <!-- <div class="row">
         <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
@@ -575,7 +575,7 @@
     <!-- Begin Scripts -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/chosen.jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <script src="js/scripts.js"></script>
     <!-- Latest compiled and minified Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script>
