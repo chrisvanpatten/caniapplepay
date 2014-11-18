@@ -345,6 +345,10 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'citizens bank',
+          supported: 2
+        },
+        {
           name: 'city national bank',
           supported: 2
         },
@@ -697,6 +701,10 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'first light bank',
+          supported: 3
+        },
+        {
           name: 'first national bank',
           supported: 2
         },
@@ -767,6 +775,10 @@ var banksArray = [
         {
           name: 'frost bank',
           supported: 2
+        },
+        {
+          name: 'fulton bank',
+          supported: 3
         },
         {
           name: 'ge credit union',
@@ -1378,7 +1390,7 @@ var banksArray = [
         },
         {
           name: 'regions bank',
-          supported: 1
+          supported: 2
         },
         {
           name: 'reliant federal credit union',
@@ -1946,7 +1958,7 @@ var banksArray = [
         },
         {
           name: 'suntrust',
-          supported: 2
+          supported: 1
         },
         {
           name: 'state street corp',

@@ -17,16 +17,15 @@
     <link href="css/chosen.min.css" rel="stylesheet" type="text/css"/>
     <!-- <link rel="stylesheet" type="text/css" href="css/select2.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="css/main.min.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-12"> 
           <div class="jumbotron">
-          <h1>Can I <span>Apple Pay?</span><img src="assets/apple-pay-logo.png">?</h1>
-            <div class="row">
-              <!--hidden items that appear depedning on bank compatibility-->
+          <h1>Can I <span>Apple Pay</span><img src="assets/apple-pay-logo.png" alt="Apple Pay logo">?</h1>
+            <!-- <div class="row">
               <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
                 <div class="center-block alert alert-warning">
                   <p>Soon</p>
@@ -38,7 +37,7 @@
                   <p>No</p>
                 </div>
               </div>
-            </div>
+            </div> -->
             <p>Enter your bank or credit card provider below to check to see if your institution supports Apple Pay.</p>
           </div>
         </div>
@@ -137,6 +136,7 @@
             <option>Citi</option>
             <option>CitiBank</option>
             <option>Citizens and Farmers Bank</option>
+            <option>Citizens Bank</option>
             <option>City National Bank</option>
             <option>City National Bank of New Jersey</option>
             <option>Clearview Federal Credit Union</option>
@@ -227,6 +227,7 @@
             <option>First Financial Credit Union (IL)</option>
             <option>First Florida Credit Union</option>
             <option>First International Bank and Trust</option>
+            <option>First Light Bank</option>
             <option>First National Bank</option>
             <option>First National Bank of Bosque County</option>
             <option>First National Bank of Omaha</option>
@@ -245,6 +246,7 @@
             <option>Freedom First Credit Union</option>
             <option>Fremont Bank</option>
             <option>Frost Bank</option>
+            <option>Fulton Bank</option>
             <option>GE Credit Union</option>
             <option>Generations Community Federal Credit Union</option>
             <option>Golden Plains Credit Union</option>
@@ -536,6 +538,20 @@
             <option>Zions First National Bank</option>
             <!-- <option></option> -->
           </select>
+          <div class="row">
+              <!--hidden items that appear depedning on bank compatibility-->
+              <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
+                <div class="center-block alert alert-warning">
+                  <p>Soon</p>
+                </div>
+                <div class="center-block alert alert-success">
+                  <p>Yes</p>
+                </div>
+                <div class="center-block alert alert-danger">
+                  <p>No</p>
+                </div>
+              </div>
+            </div>
           <button type="button" id="bankSearch" class="center-block btn btn-default btn-lg">Submit</button>
           <!-- <input type="text" class="center-block form-control dropdown" id="input_bank" placeholder="Bank Name"> -->
       </div>
@@ -575,7 +591,7 @@
     <!-- Begin Scripts -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/chosen.jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/scripts.min.js"></script>
     <!-- Latest compiled and minified Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script>
