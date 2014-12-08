@@ -981,6 +981,10 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'l&n federal credit union',
+          supported: 2
+        },
+        {
           name: 'la terre federal credit union',
           supported: 2
         },
@@ -1762,7 +1766,7 @@ var banksArray = [
         },
         {
           name: 'uw credit union',
-          supported: 3
+          supported: 1
         },
         {
           name: 'vectrabank colorado national association',
