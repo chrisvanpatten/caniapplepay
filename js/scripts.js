@@ -770,7 +770,7 @@ var banksArray = [
         },
         {
           name: 'fremont bank',
-          supported: 2
+          supported: 1
         },
         {
           name: 'frost bank',
@@ -1187,6 +1187,10 @@ var banksArray = [
         {
           name: 'new mexico educators federal credit union',
           supported: 2
+        },
+        {
+          name: 'nih federal credit union',
+          supported: 1
         },
         {
           name: 'nj gateway federal credit union',
