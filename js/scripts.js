@@ -1842,7 +1842,7 @@ var banksArray = [
         },
         {
           name: 'virginia credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'vons employees federal credit union',
