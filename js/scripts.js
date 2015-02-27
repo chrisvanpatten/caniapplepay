@@ -70,11 +70,11 @@ var banksArray = [
         },
         {
           name: 'affinity federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'affinity plus federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'alaska usa federal credit union',
@@ -257,6 +257,10 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'cabelas club',
+          supported: 1
+        },
+        {
           name: 'california bank & trust',
           supported: 2
         },
@@ -299,6 +303,10 @@ var banksArray = [
         {
           name: 'centra credit union',
           supported: 2
+        },
+        {
+          name: 'central bank',
+          supported: 1
         },
         {
           name: 'central florida educators federal credit union',
@@ -458,7 +466,7 @@ var banksArray = [
         },
         {
           name: 'consumers credit union – illionois',
-          supported: 2
+          supported: 1
         },
         {
           name: 'coulee dam federal credit union',
@@ -485,6 +493,10 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'credit union of southern california',
+          supported: 1
+        },
+        {
           name: 'cross keys bank',
           supported: 2
         },
@@ -498,7 +510,7 @@ var banksArray = [
         },
         {
           name: 'cyprus federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'deer valley credit union',
@@ -621,8 +633,16 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'fairwinds credit union',
+          supported: 1
+        },
+        {
           name: 'farm bureau bank',
           supported: 2
+        },
+        {
+          name: 'farmers & merchants bank of long beach',
+          supported: 1
         },
         {
           name: 'farmers bank',
@@ -714,7 +734,7 @@ var banksArray = [
         },
         {
           name: 'first national bank of omaha',
-          supported: 2
+          supported: 1
         },
         {
           name: 'first national bank of pontotoc',
@@ -727,6 +747,10 @@ var banksArray = [
         {
           name: 'first northern credit union',
           supported: 2
+        },
+        {
+          name: 'first sentry bank',
+          supported: 1
         },
         {
           name: 'first technology federal credit union',
@@ -742,7 +766,7 @@ var banksArray = [
         },
         {
           name: 'firstbank',
-          supported: 2
+          supported: 1
         },
         {
           name: 'fnb community bank',
@@ -811,6 +835,10 @@ var banksArray = [
         {
           name: 'greater nevada credit union',
           supported: 2
+        },
+        {
+          name: 'grow financial federal credit union',
+          supported: 1
         },
         {
           name: 'gte federal credit union',
@@ -907,6 +935,10 @@ var banksArray = [
         {
           name: 'iberiabank',
           supported: 2
+        },
+        {
+          name: 'ideal credit union',
+          supported: 1
         },
         {
           name: 'idaho central credit union',
@@ -1142,7 +1174,7 @@ var banksArray = [
         },
         {
           name: 'mountain america credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'mountain credit union',
@@ -1274,7 +1306,7 @@ var banksArray = [
         },
         {
           name: 'partners federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'pasadena federal credit union',
@@ -1394,7 +1426,11 @@ var banksArray = [
         },
         {
           name: 'redwood credit union',
-          supported: 2
+          supported: 1
+        },
+        {
+          name: 'regional bank customers bank',
+          supported: 1
         },
         {
           name: 'regions bank',
@@ -1485,6 +1521,14 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'security service federal credit union',
+          supported: 1
+        },
+        {
+          name: 'ssfcu',
+          supported: 1
+        },
+        {
           name: 'service credit union',
           supported: 2
         },
@@ -1562,7 +1606,7 @@ var banksArray = [
         },
         {
           name: 'state department federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'state employees credit union of maryland, inc.',
@@ -1609,12 +1653,16 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'teachers credit union',
+          supported: 1
+        },
+        {
           name: 'tech credit union',
           supported: 2
         },
         {
           name: 'technology credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'tennessee valley federal credit union',
@@ -1657,8 +1705,16 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'the independent bankersbank',
+          supported: 1
+        },
+        {
           name: 'the national bank & trust company of sycamore',
           supported: 2
+        },
+        {
+          name: 'the northern trust company',
+          supported: 1
         },
         {
           name: 'the paducah bank and trust company',
@@ -1722,7 +1778,7 @@ var banksArray = [
         },
         {
           name: 'united federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'united nations federal credit union',
@@ -1766,7 +1822,7 @@ var banksArray = [
         },
         {
           name: 'utah first federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'uw credit union',
@@ -1782,6 +1838,10 @@ var banksArray = [
         },
         {
           name: 'vermont state employees credit union',
+          supported: 2
+        },
+        {
+          name: 'virginia credit union',
           supported: 2
         },
         {
