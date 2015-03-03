@@ -20,11 +20,26 @@ h1>span {
 }
 .jumbotron p {
   margin-top: 3%;
-  margin-bottom: 4%;
 }
 .jumbotron img {
   width: 21%;
   max-width: 173px;
+}
+#counters {
+  text-align: center;
+  margin-bottom: 1%;
+}
+.count {
+  padding: 0;
+}
+.count p {
+  padding-bottom: 7%;
+}
+.count h4 {
+  padding-top: 8%;
+}
+.count.alert-warning {
+  color: darkgoldenrod;
 }
 .alert {
   text-align: center;

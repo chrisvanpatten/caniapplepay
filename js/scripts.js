@@ -34,6 +34,17 @@ function bankQuery(bankInput) {
     };
   };
 };
+
+//functions that render content in counters
+function counterSet () {
+  var supportYes = _.pluck(_.where(banksArray, { 'supported': 1,}));
+  document.getElementById("supported").innerHTML = supportYes.length + " " + "Banks";
+  var supportSoon = _.pluck(_.where(banksArray, { 'supported': 2,}));
+  document.getElementById("supportsoon").innerHTML = supportSoon.length + " " + "Banks";
+  var supportNo = _.pluck(_.where(banksArray, { 'supported': 3,}));
+  document.getElementById("notsupported").innerHTML = supportNo.length + " " + "Banks";
+};
+
 //full list of banks
 var banksArray = [
         {
@@ -49,6 +60,10 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'first niagra bank',
+          supported: 1
+        },
+        {
           name: '1st colonial community bank',
           supported: 2
         },
@@ -58,7 +73,7 @@ var banksArray = [
         },
         {
           name: 'a+ federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'actors federal credit union',
@@ -82,7 +97,7 @@ var banksArray = [
         },
         {
           name: 'alliant credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'alps federal credit union',
@@ -94,7 +109,7 @@ var banksArray = [
         },
         {
           name: 'altra federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'alta vista credit union',
@@ -106,15 +121,15 @@ var banksArray = [
         },
         {
           name: 'amegy bank national association',
-          supported: 2
+          supported: 1
         },
         {
           name: 'america first credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'american airlines federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'american chartered bank',
@@ -142,7 +157,7 @@ var banksArray = [
         },
         {
           name: 'andrews federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'apco employees credit union',
@@ -174,7 +189,7 @@ var banksArray = [
         },
         {
           name: 'bank of hawaii',
-          supported: 2
+          supported: 1
         },
         {
           name: 'bank of idaho',
@@ -198,7 +213,7 @@ var banksArray = [
         },
         {
           name: 'baxter credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'bay atlantic federal credit union',
@@ -211,6 +226,10 @@ var banksArray = [
         {
           name: 'bellco credit union',
           supported: 2
+        },
+        {
+          name: 'bethpage federal credit union',
+          supported: 1
         },
         {
           name: 'bellwether community credit union',
@@ -234,7 +253,7 @@ var banksArray = [
         },
         {
           name: 'boeing employee credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'bofi federal bank',
@@ -262,7 +281,7 @@ var banksArray = [
         },
         {
           name: 'california bank & trust',
-          supported: 2
+          supported: 1
         },
         {
           name: 'cambridge trust company',
@@ -410,11 +429,11 @@ var banksArray = [
         },
         {
           name: 'commerce bank',
-          supported: 2
+          supported: 1
         },
         {
           name: 'commonwealth credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'commonwealth one federal credit union',
@@ -454,11 +473,11 @@ var banksArray = [
         },
         {
           name: 'compass bank',
-          supported: 2
+          supported: 1
         },
         {
           name: 'connex credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'conservation employees credit union',
@@ -489,6 +508,10 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'cfe federal credit union',
+          supported: 1
+        },
+        {
           name: 'cpm federal credit union',
           supported: 2
         },
@@ -506,7 +529,7 @@ var banksArray = [
         },
         {
           name: 'customers bank',
-          supported: 2
+          supported: 1
         },
         {
           name: 'cyprus federal credit union',
@@ -754,7 +777,7 @@ var banksArray = [
         },
         {
           name: 'first technology federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'first tennessee bank national association',
@@ -777,6 +800,10 @@ var banksArray = [
           supported: 3
         },
         {
+          name: 'foothill credit union',
+          supported: 1
+        },
+        {
           name: 'fort worth city credit union',
           supported: 2
         },
@@ -786,7 +813,7 @@ var banksArray = [
         },
         {
           name: 'founders federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'freedom first credit union',
@@ -818,11 +845,11 @@ var banksArray = [
         },
         {
           name: 'golden 1 credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'goldenwest federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'great basin fcu',
@@ -937,6 +964,10 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'ibm southest employees federal credit union',
+          supported: 2
+        },
+        {
           name: 'ideal credit union',
           supported: 1
         },
@@ -962,7 +993,7 @@ var banksArray = [
         },
         {
           name: 'inova federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'investors bank',
@@ -1014,7 +1045,7 @@ var banksArray = [
         },
         {
           name: 'l&n federal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'la terre federal credit union',
@@ -1054,7 +1085,7 @@ var banksArray = [
         },
         {
           name: 'listerhill credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'lone star state bank of west texas',
@@ -1103,6 +1134,10 @@ var banksArray = [
         {
           name: 'mendo lake credit union',
           supported: 2
+        },
+        {
+          name: 'meijer credit union',
+          supported: 1
         },
         {
           name: 'mercantile bank',
@@ -1198,7 +1233,11 @@ var banksArray = [
         },
         {
           name: 'national bank of arizona',
-          supported: 2
+          supported: 1
+        },
+        {
+          name: 'national institutes of health fcu',
+          supported: 1
         },
         {
           name: 'navy federal credit union',
@@ -1210,7 +1249,7 @@ var banksArray = [
         },
         {
           name: 'nevada state bank',
-          supported: 2
+          supported: 1
         },
         {
           name: 'new england federal credit union',
@@ -1322,7 +1361,7 @@ var banksArray = [
         },
         {
           name: 'penfed (pentagon federal credit union)',
-          supported: 2
+          supported: 1
         },
         {
           name: 'penn east federal credit union',
@@ -1434,7 +1473,7 @@ var banksArray = [
         },
         {
           name: 'regions bank',
-          supported: 2
+          supported: 1
         },
         {
           name: 'reliant federal credit union',
@@ -1462,7 +1501,7 @@ var banksArray = [
         },
         {
           name: 'royal credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'sabine federal credit union',
@@ -1498,15 +1537,15 @@ var banksArray = [
         },
         {
           name: 'savings bank of danbury',
-          supported: 2
+          supported: 1
         },
         {
           name: 'schools financial credit union',
           supported: 2
         },
         {
-          name: 'schoolsfirst federal credit union',
-          supported: 2
+          name: 'schools first federal credit union',
+          supported: 1
         },
         {
           name: 'scient federal credit union',
@@ -1586,10 +1625,14 @@ var banksArray = [
         },
         {
           name: 'spokane teachers credit union',
-          supported: 2
+          supported: 1
         },
         {
           name: 'staley credit union',
+          supported: 2
+        },
+        {
+          name: 'star one credit union',
           supported: 2
         },
         {
@@ -1665,6 +1708,10 @@ var banksArray = [
           supported: 1
         },
         {
+          name: 'telhio credit union',
+          supported: 1
+        },
+        {
           name: 'tennessee valley federal credit union',
           supported: 2
         },
@@ -1690,7 +1737,7 @@ var banksArray = [
         },
         {
           name: 'the bank of greene county',
-          supported: 2
+          supported: 1
         },
         {
           name: 'the first national bank of ottawa',
@@ -1798,7 +1845,7 @@ var banksArray = [
         },
         {
           name: 'university first federal credit',
-          supported: 2
+          supported: 1
         },
         {
           name: 'university of toledo federal credit union',
@@ -1825,12 +1872,16 @@ var banksArray = [
           supported: 1
         },
         {
+          name: 'uwharrie bank',
+          supported: 1
+        },
+        {
           name: 'uw credit union',
           supported: 1
         },
         {
           name: 'vectrabank colorado national association',
-          supported: 2
+          supported: 1
         },
         {
           name: 'veridian credit union',
@@ -1877,6 +1928,10 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'west community credit union',
+          supported: 1
+        },
+        {
           name: 'wings financial credit union',
           supported: 2
         },
@@ -1914,7 +1969,7 @@ var banksArray = [
         },
         {
           name: 'zions first national bank',
-          supported: 2
+          supported: 1
         },
         {
           name: 'absa',
@@ -1949,15 +2004,15 @@ var banksArray = [
           supported: 1
         },
         {
-          name: 'j.p. morgan',
-          supported: 1
-        },
-        {
           name: 'jp morgan',
           supported: 1
         },
         {
           name: 'merrill lynch',
+          supported: 1
+        },
+        {
+          name: 'morgan stanley',
           supported: 1
         },
         {
@@ -2038,7 +2093,7 @@ var banksArray = [
         },
         {
           name: 'huntington bank',
-          supported: 2
+          supported: 1
         },
         {
           name: 'usaa',
@@ -2077,6 +2132,10 @@ var banksArray = [
           supported: 2
         },
         {
+          name: 'keypoint credit union',
+          supported: 1
+        },
+        {
           name: 'ing group',
           supported: 3
         },
@@ -2101,3 +2160,5 @@ var banksArray = [
           supported: 3
         }
 ];
+//int for array counter
+$(counterSet());

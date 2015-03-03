@@ -42,6 +42,28 @@
           </div>
         </div>
       </div>
+      <div id="counters" class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <div class="col-md-4 col-sm-12">
+              <div class="well count alert-success">
+                <h4>Supported</h4>
+                <p id="supported">Yes</p>
+              </div> 
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="well count alert-warning">
+                <h4>Pending Support</h4>
+                <p id="supportsoon">Soon</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="well count alert-danger">
+                <h4>Not Supported</h4>
+                <p id="notsupported">No</p>
+              </div>
+            </div>
+          </div>
+      </div>
       <div class="row">
         <div class="form-group">
           <select id="input_bank" class="center-block" data-placeholder="Enter your Bank">
@@ -99,6 +121,7 @@
             <option>Bay Atlantic Federal Credit Union</option>
             <option>BCM Federal Credit Union</option>
             <option>Bellco Credit Union</option>
+            <option>Bethpage Federal Credit Union</option>
             <option>Bellwether Community Credit Union</option>
             <option>Belmont Bank &amp; Trust</option>
             <option>Black Hills Federal Credit Union</option>
@@ -172,6 +195,7 @@
             <option>CoVantage Credit Union</option>
             <option>Cornell Fingerlakes Credit Union</option>
             <option>CFCU</option>
+            <option>CFE Federal Credit Union</option>
             <option>CPM Federal Credit Union</option>
             <option>Credit Union of Southern California</option>
             <option>Cross Keys Bank</option>
@@ -238,6 +262,7 @@
             <option>First National Bank of Omaha</option>
             <option>First National Bank of Pontotoc</option>
             <option>First National Bank-Arcadia LA</option>
+            <option>First Niagara Bank</option>
             <option>First Northern Credit Union</option>
             <option>First Sentry Bank</option>
             <option>First Technology Federal Credit Union</option>
@@ -246,6 +271,7 @@
             <option>Firstbank</option>
             <option>FNB Community Bank</option>
             <option>Focus Bank</option>
+            <option>Foothill Credit Union</option>
             <option>Fort Worth City Credit Union</option>
             <option>Fort Worth Community Credit Union</option>
             <option>Founders Federal Credit Union</option>
@@ -288,6 +314,7 @@
             <option>Huntington Bank</option>
             <option>Huntington Federal Savings Bank</option>
             <option>Iberiabank</option>
+            <option>IBM Southest Employees Federal Credit Union</option>
             <option>Ideal Credit Union</option>
             <option>Idaho Central Credit Union</option>
             <option>Illiana Financial Credit Union</option>
@@ -306,7 +333,7 @@
             <option>Keesler Federal Credit Union</option>
             <option>Kemba Credit Union</option>
             <option>Kent Credit Union</option>
-            <option>Key Point Credit Union</option>
+            <option>Keypoint Credit Union</option>
             <option>KeyBank</option>
             <option>Kinetic Credit Union</option>
             <option>Kirtland Federal Credit Union</option>
@@ -332,6 +359,7 @@
             <option>McHenry County Federal Credit Union</option>
             <option>Meadows Bank</option>
             <option>Meadows Credit Union</option>
+            <option>Meijer Credit Union</option>
             <option>Mendo Lake Credit Union</option>
             <option>Mercantile Bank</option>
             <option>Mercantile Bank of Michigan</option>
@@ -354,10 +382,12 @@
             <option>Mountain America Credit Union</option>
             <option>Mountain Credit Union</option>
             <option>Mountain Valley Bank</option>
+            <option>Morgan Stanley</option>
             <option>Municipal Credit Union</option>
             <option>NAPUS Federal Credit Union</option>
             <option>NASA Federal Credit Union</option>
             <option>National Bank of Arizona</option>
+            <option>National Institutes of Health FCU</option>
             <option>Navy Federal Credit Union</option>
             <option>Neighborhood Credit Union</option>
             <option>Nevada State Bank</option>
@@ -440,7 +470,7 @@
             <option>Sandia Area Federal Credit Union</option>
             <option>Savings Bank of Danbury</option>
             <option>Schools Financial Credit Union</option>
-            <option>SchoolsFirst Federal Credit Union</option>
+            <option>Schools First Federal Credit Union</option>
             <option>Scient Federal Credit Union</option>
             <option>Seasons Federal Credit Union</option>
             <option>Seattle Metropolitan Credit Union</option>
@@ -462,6 +492,7 @@
             <option>Spokane Teachers Credit Union</option>
             <option>SSFCU</option>
             <option>Staley Credit Union</option>
+            <option>Star One Credit Union</option>
             <option>Star Tech Federal Credit Union</option>
             <option>Star USA Federal Credit Union</option>
             <option>State Bank of Chilton</option>
@@ -482,6 +513,7 @@
             <option>Teachers Credit Union</option>
             <option>Tech Credit Union</option>
             <option>Technology Credit Union</option>
+            <option>Telhio Credit Union</option>
             <option>Tennessee Valley Federal Credit Union</option>
             <option>Texas Bank and Trust</option>
             <option>Texas Capital Bank</option>
@@ -529,6 +561,7 @@
             <option>Utah Federal Credit Union</option>
             <option>Utah First Federal Credit Union</option>
             <option>Utah Power Credit Union</option>
+            <option>Uwharrie Bank</option>
             <option>UW Credit Union</option>
             <option>Vectrabank Colorado National Association</option>
             <option>Veridian Credit Union</option>
@@ -542,6 +575,7 @@
             <option>Wells Fargo</option>
             <option>Weokie Credit Union</option>
             <option>Wescom Credit Union</option>
+            <option>West Community Credit Union</option>
             <option>Westmoreland Community Federal Credit Union</option>
             <option>Wings Financial Credit Union</option>
             <option>Wisconsin Bank and Trust</option>
@@ -608,6 +642,7 @@
     <!-- Begin Scripts -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/chosen.jquery.min.js"></script>
+    <script src="js/lodash.min.js"></script>
     <script src="js/scripts.min.js"></script>
     <!-- Latest compiled and minified Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
