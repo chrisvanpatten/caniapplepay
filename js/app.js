@@ -13,17 +13,23 @@
           if (banks[i].supported == 1) {
             console.log('1');
             $(".alert").removeClass('active');
+            $(".aside").removeClass('active');
             $(".alert-1").addClass('active');
+            $(".aside-1").addClass('active');
             return;
           } else if (banks[i].supported == 2) {
             console.log('2');
             $(".alert").removeClass('active');
+            $(".aside").removeClass('active');
             $(".alert-2").addClass('active');
+            $(".aside-2").addClass('active');
             return;
           } else if (banks[i].supported == 3) {
             console.log('3');
             $(".alert").removeClass('active');
+            $(".aside").removeClass('active');
             $(".alert-3").addClass('active');
+            $(".aside-3").addClass('active');
             return;
           };
         };

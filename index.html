@@ -7,6 +7,7 @@
     <title>Can I ApplePay?</title>
     <meta name="author" content="Cole Gentry">
     <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,100" rel="stylesheet" type="text/css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,29 +22,35 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6">
-          <h1>Does your bank support Apple Pay?</h1>
-          <div class="row">
-            <div class="col-md-4 disabled center-block alert alert-2">
-              <p>Soon</p>
-            </div>
+        <div class="col-md-6 intro-box">
+          <h1>Can I Apple Pay?</h1>
+          <div class="row alert-group">
             <div class="col-md-4 disabled center-block alert alert-1">
               <p>Yes</p>
+            </div>
+            <div class="col-md-4 disabled center-block alert alert-2">
+              <p>Soon</p>
             </div>
             <div class="col-md-4 disabled center-block alert alert-3">
               <p>No</p>
             </div>
           </div>
+          <div class="row">
+            <p class="aside aside-1">Your bank is currently supported.  Please note while your bank may be supported, not all debit and credit cards currently supplied by your bank may be supported.</p>
+            <p class="aside aside-2">Your bank will probably be supported in the future.  Currently they have either stated the plan to support Apple Pay or they have expressed interest in the project.</p>
+            <p class="aside aside-3">You're bank has either stated they will not be supporting Apple Pay or they have made no official comment on whether they plan to support Apple Pay in the future.</p>
+          </div>
         </div>
         <div class="col-md-6" ng-controller="BankController as bankcheck">
           <div class="form-group" ng-controller="SubmitCheck">
             <div class="row">
+              <h2>Choose your Bank</h2>
               <select id="input-bank">
                 <option value="{{bank.name}}" ng-repeat="bank in bankcheck.bankList">{{bank.name}}</option>
               </select>
             </div>
             <div class="row">
-              <input type="submit" id="submit" value="Check"/>
+              <button class="submit-button" id="submit">Check Your Bank</button>
             </div>
           </div>
         </div>
