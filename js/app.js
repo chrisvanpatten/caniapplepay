@@ -12,18 +12,18 @@
         if (bankInput.toLowerCase() === banks[i].name) {
           if (banks[i].supported == 1) {
             console.log('1');
-            $(".alert").hide();
-            $(".alert-success").fadeIn();
+            $(".alert").removeClass('active');
+            $(".alert-1").addClass('active');
             return;
           } else if (banks[i].supported == 2) {
             console.log('2');
-            $(".alert").hide();
-            $(".alert-warning").fadeIn();
+            $(".alert").removeClass('active');
+            $(".alert-2").addClass('active');
             return;
           } else if (banks[i].supported == 3) {
             console.log('3');
-            $(".alert").hide();
-            $(".alert-danger").fadeIn();
+            $(".alert").removeClass('active');
+            $(".alert-3").addClass('active');
             return;
           };
         };

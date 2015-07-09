@@ -21,14 +21,30 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div ng-controller="BankController as bankcheck">
-          <!-- Form that checks your bank(heart of the app) -->
-          <div class="form-group">
-            <select id="input-bank" ng-controller="SubmitCheck">
-              <!-- sets initial blank value for select box -->
-              <option value="{{bank.name}}" ng-repeat="bank in bankcheck.bankList">{{bank.name}}</option>
-              <input type="submit" id="submit" value="Submit"/>
-            </select>
+        <div class="col-md-6">
+          <h1>Does your bank support Apple Pay?</h1>
+          <div class="row">
+            <div class="col-md-4 disabled center-block alert alert-2">
+              <p>Soon</p>
+            </div>
+            <div class="col-md-4 disabled center-block alert alert-1">
+              <p>Yes</p>
+            </div>
+            <div class="col-md-4 disabled center-block alert alert-3">
+              <p>No</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6" ng-controller="BankController as bankcheck">
+          <div class="form-group" ng-controller="SubmitCheck">
+            <div class="row">
+              <select id="input-bank">
+                <option value="{{bank.name}}" ng-repeat="bank in bankcheck.bankList">{{bank.name}}</option>
+              </select>
+            </div>
+            <div class="row">
+              <input type="submit" id="submit" value="Check"/>
+            </div>
           </div>
         </div>
       </div>
