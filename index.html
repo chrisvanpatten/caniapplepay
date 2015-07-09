@@ -16,16 +16,18 @@
     <!-- Latest compiled and minified Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="css/select2.min.css">
   </head>
   <body>
     <div class="container-fluid">
       <div class="row">
         <div ng-controller="BankController as bankcheck">
+          <!-- Form that checks your bank(heart of the app) -->
           <div class="form-group">
-            <select id="input_bank" class="center-block" data-placeholder="Enter your Bank">
-              <option value=""></option>
-              <option value="" ng-repeat="bank in bankcheck.bankList">{{bank.name}}</option>
-              <input type="submit" id="submit" value="Check"/>
+            <select id="input-bank" ng-controller="SubmitCheck">
+              <!-- sets initial blank value for select box -->
+              <option value="{{bank.name}}" ng-repeat="bank in bankcheck.bankList">{{bank.name}}</option>
+              <input type="submit" id="submit" value="Submit"/>
             </select>
           </div>
         </div>
@@ -35,6 +37,7 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/angular.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/select2.min.js"></script>
     <!-- Latest compiled and minified Bootstrap JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     <script>
