@@ -46,6 +46,8 @@
 h1 {
   font-weight: bold;
   font-size: 48px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 2%;
 }
 h2 {
   margin-bottom: 5%;
