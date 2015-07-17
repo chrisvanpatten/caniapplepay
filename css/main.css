@@ -14,6 +14,7 @@ body {
 }
 h1 {
   padding-top: 10%;
+  font-size: 2.8em;
 }
 .aside {
   display: none;
@@ -45,11 +46,63 @@ md-content.md-default-theme {
   width: 50%;
   margin: auto;
 }
+footer{
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  margin-bottom:0px;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-top: solid 1px #fff;
+}
+a {
+  text-decoration: none;
+  color: #62C059;
+}
+a:hover {
+  text-decoration: none;
+  color: #62C059;
+}
+a:visited {
+  text-decoration: none;
+  color: #62C059;
+}
+.stylish {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+}
+.stylish:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+.stylish:hover:after {
+  width: 100%;
+  background: #62C059;
+}
+.foot1 {
+  text-align: left;
+  margin-left: 2%;
+}
+.foot2 {
+  text-align: right;
+  margin-right: 2%;
+}
 
 /* Extra small devices (phones, 320px and up) */
 @media (min-width: 320px) {
   md-content.md-default-theme {
   width: 90%;
+  }
+  .foot1 {
+    text-align: center;
+    margin-left: 0;
   }
 }
 
@@ -57,6 +110,10 @@ md-content.md-default-theme {
 @media (min-width: 768px) {
   md-content.md-default-theme {
   width: 60%;
+  }
+  .foot1 {
+    text-align: left;
+    margin-left: 2%;
   }
 }
 
