@@ -33,7 +33,7 @@
   "supported": 1
 }, {
   "name": "alaska usa federal credit union",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "alliant credit union",
   "supported": 1
@@ -63,7 +63,7 @@
   "supported": 1
 }, {
   "name": "american chartered bank",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "american heritage bank",
   "supported": 2
@@ -86,6 +86,9 @@
   "name": "apco employees credit union",
   "supported": 2
 }, {
+  "name": "apple federal credit union",
+  "supported": 1
+}, {
   "name": "arlington community federal credit union",
   "supported": 2
 }, {
@@ -101,6 +104,9 @@
   "name": "avidbank",
   "supported": 2
 }, {
+  "name": "bank-fund staff federal credit union",
+  "supported": 1
+},{
   "name": "bank of colorado",
   "supported": 2
 }, {
@@ -132,7 +138,7 @@
   "supported": 2
 }, {
   "name": "bellco credit union",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "bethpage federal credit union",
   "supported": 1
@@ -186,7 +192,7 @@
   "supported": 2
 }, {
   "name": "capital city bank",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "capitol credit union",
   "supported": 2
@@ -219,7 +225,7 @@
   "supported": 2
 }, {
   "name": "changing seasons fcu",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "charter oak federal credit union",
   "supported": 2
@@ -246,7 +252,7 @@
   "supported": 2
 }, {
   "name": "city national bank",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "city national bank of new jersey",
   "supported": 2
@@ -410,6 +416,9 @@
   "name": "e federal credit union",
   "supported": 2
 }, {
+  "name": "efcu financial",
+  "supported": 1
+}, {
   "name": "etrade",
   "supported": 3
 }, {
@@ -427,6 +436,9 @@
 }, {
   "name": "eastman credit union",
   "supported": 2
+}, {
+  "name": "educational systems fcu",
+  "supported": 1
 }, {
   "name": "educators credit union",
   "supported": 2
@@ -501,7 +513,7 @@
   "supported": 2
 }, {
   "name": "first federal savings bank",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "first fidelity bank n.a.",
   "supported": 2
@@ -602,11 +614,17 @@
   "name": "goldenwest federal credit union",
   "supported": 1
 }, {
+  "name": "granite credit union",
+  "supported": 1
+}, {
   "name": "great basin fcu",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "greater iowa credit union",
   "supported": 2
+}, {
+  "name": "greater texas fcu",
+  "supported": 1
 }, {
   "name": "greater nevada credit union",
   "supported": 2
@@ -642,7 +660,7 @@
   "supported": 2
 }, {
   "name": "healthcare systems federal credit union",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "heartland federal credit union",
   "supported": 2
@@ -671,8 +689,14 @@
   "name": "houston texas fire fighters federal credit union",
   "supported": 2
 }, {
+  "name": "hoosier hills credit union",
+  "supported": 1
+}, {
   "name": "hudson river community credit union",
   "supported": 2
+}, {
+  "name": "hughes federal credit union",
+  "supported": 1
 }, {
   "name": "hudson valley federal credit union",
   "supported": 2
@@ -714,7 +738,7 @@
   "supported": 3
 }, {
   "name": "iq credit union",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "jax federal credit union",
   "supported": 2
@@ -732,7 +756,7 @@
   "supported": 1
 }, {
   "name": "kemba credit union",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "kent credit union",
   "supported": 2
@@ -759,7 +783,7 @@
   "supported": 2
 }, {
   "name": "landmark credit union",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "langley federal credit union",
   "supported": 2
@@ -767,8 +791,8 @@
   "name": "laramie plains community federal credit union",
   "supported": 2
 }, {
-  "name": "legend bank na",
-  "supported": 2
+  "name": "legend bank",
+  "supported": 1
 }, {
   "name": "liberty savings bank, f.s.b.",
   "supported": 2
@@ -794,6 +818,9 @@
   "name": "marine bank & trust",
   "supported": 2
 }, {
+  "name": "mayo employees federal credit union",
+  "supported": 1
+}, {
   "name": "marion & polk schools credit union",
   "supported": 2
 }, {
@@ -812,6 +839,12 @@
   "name": "meadows credit union",
   "supported": 2
 }, {
+  "name": "members first federal credit union",
+  "supported": 1
+}, {
+  "name": "members 1st federal credit union",
+  "supported": 1
+}, {
   "name": "mendo lake credit union",
   "supported": 2
 }, {
@@ -819,7 +852,7 @@
   "supported": 1
 }, {
   "name": "mercantile bank",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "mercantile bank of michigan",
   "supported": 2
@@ -846,7 +879,7 @@
   "supported": 2
 }, {
   "name": "midflorida credit union",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "mid-hudson valley federal credit union",
   "supported": 2
@@ -903,7 +936,7 @@
   "supported": 1
 }, {
   "name": "new england federal credit union",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "new mexico educators federal credit union",
   "supported": 2
@@ -919,6 +952,9 @@
 }, {
   "name": "northwest federal credit union",
   "supported": 2
+}, {
+  "name": "northstar credit union",
+  "supported": 1
 }, {
   "name": "novartis federal credit union",
   "supported": 2
@@ -974,6 +1010,9 @@
   "name": "partners federal credit union",
   "supported": 1
 }, {
+  "name": "parsons federal credit union",
+  "supported": 1
+}, {
   "name": "pasadena federal credit union",
   "supported": 2
 }, {
@@ -990,7 +1029,10 @@
   "supported": 2
 }, {
   "name": "peoples bank",
-  "supported": 2
+  "supported": 1
+}, {
+  "name": "peoples united bank",
+  "supported": 1
 }, {
   "name": "peoples choice credit union",
   "supported": 2
@@ -1008,7 +1050,7 @@
   "supported": 2
 }, {
   "name": "pinnacle bank",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "pinnacle bank sioux city",
   "supported": 2
@@ -1060,6 +1102,9 @@
 }, {
   "name": "pyramid federal credit union",
   "supported": 2
+}, {
+  "name": "randolph-brooks federal credit union",
+  "supported": 1
 }, {
   "name": "redwood credit union",
   "supported": 1
@@ -1140,7 +1185,7 @@
   "supported": 1
 }, {
   "name": "service credit union",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "seven seventeen credit union, inc.",
   "supported": 2
@@ -1184,6 +1229,9 @@
   "name": "spokane teachers credit union",
   "supported": 1
 }, {
+  "name": "srp federal credit union",
+  "supported": 1
+}, {
   "name": "staley credit union",
   "supported": 2
 }, {
@@ -1220,6 +1268,9 @@
   "name": "summit credit union",
   "supported": 2
 }, {
+  "name": "suma(yonkers) fcu",
+  "supported": 1
+}, {
   "name": "suncoast credit union",
   "supported": 2
 }, {
@@ -1230,7 +1281,7 @@
   "supported": 2
 }, {
   "name": "tampa bay federal credit union",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "tcf national bank",
   "supported": 2
@@ -1248,7 +1299,7 @@
   "supported": 1
 }, {
   "name": "tennessee valley federal credit union",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "texas bank and trust",
   "supported": 2
@@ -1301,20 +1352,32 @@
   "name": "town and country bank",
   "supported": 2
 }, {
+  "name": "town and country fcu",
+  "supported": 1
+}, {
+  "name": "town square bank",
+  "supported": 1
+}, {
   "name": "transportation fcu",
-  "supported": 2
+  "supported": 1
+}, {
+  "name": "tri county area federal credit union",
+  "supported": 1
 }, {
   "name": "trona valley community federal credit union",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "true north federal credit union",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "trumark financial credit union",
   "supported": 2
 }, {
   "name": "tucson federal credit union",
   "supported": 2
+}, {
+  "name": "ubs bank usa",
+  "supported": 1
 }, {
   "name": "u-mass five college federal credit union",
   "supported": 2
@@ -1339,6 +1402,9 @@
 }, {
   "name": "united southern bank",
   "supported": 2
+}, {
+  "name": "united teletech financial",
+  "supported": 1
 }, {
   "name": "university credit union",
   "supported": 2
@@ -1377,7 +1443,7 @@
   "supported": 1
 }, {
   "name": "veridian credit union",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "vermont state employees credit union",
   "supported": 2
@@ -1394,6 +1460,9 @@
   "name": "wanigas credit union",
   "supported": 2
 }, {
+  "name": "waukesha state bank",
+  "supported": 1
+}, {
   "name": "washington community fcu",
   "supported": 2
 }, {
@@ -1409,6 +1478,9 @@
   "name": "westmoreland community federal credit union",
   "supported": 2
 }, {
+  "name": "western federal credit union",
+  "supported": 1
+}, {
   "name": "west community credit union",
   "supported": 1
 }, {
@@ -1419,7 +1491,7 @@
   "supported": 2
 }, {
   "name": "winthrop area federal credit union",
-  "supported": 2
+  "supported": 1
 }, {
   "name": "winthrop-university hospital employees federal credit union",
   "supported": 2

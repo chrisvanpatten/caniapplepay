@@ -45,3 +45,18 @@ md-content.md-default-theme {
   width: 50%;
   margin: auto;
 }
+
+/* Extra small devices (phones, 320px and up) */
+@media (min-width: 320px) {
+  md-content.md-default-theme {
+  width: 90%;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  md-content.md-default-theme {
+  width: 60%;
+  }
+}
+
