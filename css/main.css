@@ -94,6 +94,9 @@ a:visited {
   text-align: right;
   margin-right: 2%;
 }
+.google-ad {
+  margin-bottom: 3%;
+}
 
 /* Extra small devices (phones, 320px and up) */
 @media (min-width: 320px) {
@@ -103,6 +106,10 @@ a:visited {
   .foot1 {
     text-align: center;
     margin-left: 0;
+  }
+  .google-ad {
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 
@@ -114,6 +121,9 @@ a:visited {
   .foot1 {
     text-align: left;
     margin-left: 2%;
+  }
+  .google-ad {
+    padding: auto;
   }
 }
 
